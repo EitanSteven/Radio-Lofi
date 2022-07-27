@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/175d06bc2c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./main.css">
+    <title>Radio Tutorial</title>
+</head>
+<body>
+    <!-- Player -->
+    <main class="player">
+
+        <!--Audio HTML-->
+        <audio src="" id="audio"></audio>
+
+        <!--Title -->
+        <h1 class="title">Lo-Fi Player</h1>
+
+        <!--Cover -->
+        <div class="cover">
+            <img src="./covers/Lo-Fi Player.jpg" alt="Cover IMG not Found" class="cover__img" id="cover">
+        </div>
+
+        <!-- Progress Bar-->
+        <div class="progress__container">
+            <section class="progress"></section>
+        </div>
+
+        <!-- Current Time -->
+        <div class="currenTime">
+            <p></p>
+        </div>
+
+        <!-- Volumen -->
+
+        <div class="volumen__container">
+            <input type="range" max="100" min="0" step="1" class="volumen">
+        </div>
+
+        <!-- Controls -->
+        <section class="controls">
+            <button class="prev">
+                <i id="prev" class="fas fa-backward"></i>
+            </button>
+            <button class="play">
+                <i id="play" class="fas fa-play"></i>
+            </button>
+            <button class="next">
+                <i id="next" class="fas fa-forward"></i>
+            </button>
+        </section>
+
+        <!-- Song List -->
+
+        <ul class="songs">
+<!--
+            <li><a href="#">Song 1</a></li>
+            <li><a href="#">Song 2</a></li>
+            <li><a href="#">Song 3</a></li>
+-->
+        </ul>
+
+    </main>
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
